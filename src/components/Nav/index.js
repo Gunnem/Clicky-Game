@@ -29,7 +29,7 @@ class Nav extends Component {
     render() {
         return (
             <nav className="pinned">
-                <div className="card blue-grey darken-1">
+                <div className="card #f9a825 yellow darken-3 black-text center">
                     <ul className="center navList">
                         <li className="logo">Clicky Game</li>
                         {this.renderMessage(this.props.correct, this.props.gameWon)}
