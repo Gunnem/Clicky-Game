@@ -12,10 +12,10 @@ class Nav extends Component {
             className = ''
         }
         else if (correct === undefined) {
-            message = 'Click an image to begin'
+            message = 'Click an animal to begin'
             className = ''
         } else {
-            message = gameWon ? 'You won the game!!!' : (correct ? 'You guessed correctly!' : 'You guessed incorrectly')
+            message = gameWon ? 'Wow, you have great memory!!' : (correct ? 'You guessed correctly!' : 'You guessed incorrectly')
             className = correct ? 'correct' : 'incorrect'
         }
 

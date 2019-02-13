@@ -48,7 +48,7 @@ class App extends Component {
                     <Row>
                         <Col s={12}>
                             <CardPanel>
-                                <p>Click on an image to earn points, but don't click on any more than once!</p>
+                                <p>Click on a different animal to earn points!</p>
                             </CardPanel>
                         </Col>
                     </Row>
